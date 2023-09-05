@@ -1,0 +1,29 @@
+info : Mooc Certificate
+courses:
+- title: Machine Learning
+  platform: Coursera
+  level: "Graduate Level"
+  Orgnization: "Stanford|Online"
+
+- title: Neural Networks and Deep Learning
+  platform: Coursera
+  level: "Graduate Level"
+  Orgnization: "DeepLearning.AI"
+
+- title: Sequence Models
+  platform: Coursera
+  level: "Graduate Level"
+  Orgnization: "DeepLearning.AI"
+
+- title: Structuring Machine Learning Projects
+  platform: Coursera
+  level: "Graduate Level"
+  Orgnization: "DeepLearning.AI"
+
+- title: Improving Deep Neural Networks:Hyperparameter Tuning, Regularization and Optimization
+  platform: Coursera
+  level: "Graduate Level"
+  Orgnization: "DeepLearning.AI"
+
+
+

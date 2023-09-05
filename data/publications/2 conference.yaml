@@ -7,7 +7,17 @@ Reviews"
   Name: "IDETC-CIE 2023 International Design Engineering Technical Conferences & Computers and Information in Engineering Conference"
   location: "Boston Park Plaza, Boston MA"
   date: "Aug.20-23 2023"
-  quality: "(peer reviewed oral presentation)"
+  quality: "(peer reviewed paper and oral presentation)"
+
+- title: "A Priori: Design Knowledge in AI"
+  authors:
+    - R. Bruggeman 
+    - E.C. Chehade
+    - Y. Han
+    - P. Ciuccarelli
+  location: "The Council of Engineering Systems Universities (CESUN) at Eighth International Engineering Systems Symposium, Charlottesville."
+  date: "Jul.5-7 2023"
+  quality: "(peer reviewed paper and oral presentation)"
 
 - title: "Extracting latent needs from online reviews through deep learning based language model"
   authors:
@@ -20,7 +30,7 @@ Reviews"
     - M. Moghaddam
   location: "24th International Conference on Engineering Design, Bordeaux, France"
   date: "Jul. 24-28 2023"
-  quality: "(peer reviewed oral presentation)"
+  quality: "(peer reviewed paper and oral presentation)"
 
 - title: "Aspect-Sentiment-Guided Opinion Summarization for User Need Elicitation From Online Reviews"
   authors: 
@@ -29,4 +39,4 @@ Reviews"
   Name: "IDETC-CIE 2022 International Design Engineering Technical Conferences & Computers and Information in Engineering Conference"
   location: "St. Louis Union Station Hotel, St. Louis, Missouri"
   date: "Aug. 14–17, 2022"
-  quality: "(peer reviewed oral presentation)"
+  quality: "(peer reviewed paper and oral presentation)"

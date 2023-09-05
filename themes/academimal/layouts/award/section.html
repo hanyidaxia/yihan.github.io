@@ -1,0 +1,33 @@
+{{ define "main" -}}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-46736129-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-46736129-2');
+</script>
+
+{{ .Content }}
+    {{ range .Site.Data.award }}
+    <strong style="font-size: 22px;color:#5297D5;">{{ .info }}</strong>
+    {{ with .courses }}
+    {{ range . }}
+    <p>
+        <strong style="color:blue;">{{ .title }}</strong><br>
+        <strong style="color:brown;">{{ .platform }}</strong><br>
+        <strong style="color:black;">{{ .level }}</strong><br>
+        {{ .Orgnization }}<br>
+        <!-- Role: {{ .role }}<br> -->
+        <!-- {{ if .teaching_evaluation }}
+            Avg. Teaching Evaluation: {{ .teaching_evaluation}}<br>
+        {{ end }}
+        {{ if .achievement }}
+           Achievement :  {{ .achievement }}
+        {{ end }} -->
+    </p>
+    {{ end }}
+    {{ end }}
+    {{ end }}
+{{- end }}
