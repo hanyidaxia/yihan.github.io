@@ -1,0 +1,12 @@
+{{ define "main" -}}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RZL8T9WT48"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RZL8T9WT48');
+</script>
+{{ .Content }}
+{{- end }}

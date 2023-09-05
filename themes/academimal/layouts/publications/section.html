@@ -1,0 +1,94 @@
+{{ define "main" -}}
+
+{{ .Content }}
+    {{ range .Site.Data.publications }}
+    {{ with .conference }}
+<!--    <h1 style="color:#5297D5;">Conference Paper Presentations</h1>-->
+    <h1 style="color:#5297D5;">Conference Papers</h1>
+    {{ range . }}
+    <p>
+        <strong style="color:brown;">{{ .title }}</strong>{{ if .quality }}<object hspace = "10" style="color:#5297D5;">{{ .quality }}</object>{{ end }}<br>
+
+
+        {{ if .authors }}
+        {{ delimit ( apply .authors "replace" "." "S. Padhee" "<b><em>S. Padhee</em></b>" ) ", " }}<br>
+        {{ end }}
+        {{ .location }}<br>
+        {{ .date }}<br>
+    </p>
+    {{ end }}
+    {{ end }}
+    <br>
+    {{ with .submitted }}
+<h1 style="color:#5297D5;" xmlns:display="http://www.w3.org/1999/xhtml"> Journal Papers & Publications</h1>
+    {{ range . }}
+    <p>
+        <!--<strong style="color:brown;">{{ .title }}-->
+        <strong style="color:brown;">{{ .title }}</strong>{{ if .quality }}<object hspace = "10" style="color:#5297D5;">{{ .quality }}</object>{{ end }}
+        </strong><br>
+        {{ delimit ( apply .authors "replace" "." "S. Padhee" "<b><em>S. Padhee</em></b>" ) ", " }}
+        {{ if .abstract }}
+        <object hspace = "10"><button class="btn">abstract ▼</button></object>
+                <div class="myDIV" style="display:none;" >
+                    <div style="font-size: 13px;"   align="justify" >{{ .abstract }}</div>
+                </div>
+    {{ end }}
+    </p>
+    {{ end }}
+    {{ end }}
+    <!--{{ with .working }}
+    <h1 style="color:#5297D5;">Working Paper</h1>
+    {{ range . }}
+    <p>
+        <strong style="color:brown;">{{ .title }}
+        </strong><br>
+        {{ delimit ( apply .authors "replace" "." "S. Padhee" "<b><em>S. Padhee</em></b>" ) ", " }}
+        {{ if .abstract }}
+        <object hspace = "10"><button class="btn">abstract ▼</button></object>
+                <div class="myDIV" style="display:none;" >
+                    <div style="font-size: 13px" align="justify">{{ .abstract }}</div>
+                </div>
+    {{ end }}
+    </p>
+    {{ end }}
+    {{ end }}
+
+
+    </br>
+    {{ with .another }}
+    <h1 style="color:#5297D5;">Publications from Another Avatar</h1>
+    {{ range . }}
+    <p>
+        <strong style="color:brown;">{{ .title }}</strong><br>
+        {{ if .authors }}
+        {{ delimit ( apply .authors "replace" "." "S. Padhee" "<b><em>S. Padhee</em></b>" ) ", " }}<br>
+        {{ end }}
+        {{ .location }}<br>
+        {{ .date }}<br>
+    </p>
+    {{ end }}
+    {{ end }}-->
+{{ end }}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-46736129-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-46736129-2');
+</script>
+
+<script>
+    let buttons = document.querySelectorAll(".btn");
+    for(let i=0;i<buttons.length;i++){
+        buttons[i].addEventListener("click",
+        function myFunction() {console.log('In here',i)
+            if (document.getElementsByClassName('myDIV')[i].style.display =="none")
+                   {document.getElementsByClassName('myDIV')[i].style.display = "block";}
+             else {document.getElementsByClassName('myDIV')[i].style.display ="none";}
+        }
+        )
+    }
+</script>
+{{- end }}

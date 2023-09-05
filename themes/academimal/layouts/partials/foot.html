@@ -1,0 +1,18 @@
+<footer>
+    <div style="display: flex;">
+    <p class="list-item" style="color:cornflowerblue;" ><a href="https://scholar.google.com/citations?user=aByVClcAAAAJ&hl=en&oi=ao" target="_blank">
+        <img src="{{ "/icons/gscholar.svg" | relURL }}" class="octicons" ></a></p>
+    <p class="list-item" ><a href="https://www.linkedin.com/in/yi-han-2900a1137/" target="_blank">
+        <img src="{{ "/icons/linked_in.svg" | relURL }}" class="octicons" hspace = "15"></a></p>
+    </div>
+    <p><a href="{{ "/Yi_Han.pdf" | relURL}}" target="_blank">Download CV</a></p>
+    <p><small>
+<!--        MIT License <a href="https://accessibility.mit.edu" target="_blank">page</a><br/>-->
+        Last updated on {{ now.Format "Jan 2, 2006" }}</small></p>
+</footer>
+</div>
+<script src="{{ "js/scale.fix.js" | relURL }}"></script>
+<script data-goatcounter="https://{{ .Site.Params.goatcounter }}.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

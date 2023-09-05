@@ -1,0 +1,184 @@
+submitted:
+
+- title: "Domain knowledge as attention fixer in Large Language Models"
+  authors:
+    - Y. Han
+    - M. Moghaddam
+  abstract: "Aspect-based sentiment analysis (ABSA) enables a systematic 
+  identification of user opinions on particular aspects, thus enhancing 
+  the idea creation process in the initial stages of product/service design. 
+  Attention-based large language models (LLMs) like T5 and GPT4 have proven 
+  powerful in ABSA tasks. Yet, several key limitations remain, both regarding 
+  the ABSA task and the capabilities of attention-based models. First, 
+  existing research mainly focuses on relatively simpler ABSA tasks such 
+  as aspect--based sentiment analysis, while the task of extracting aspect, 
+  opinion, and sentiment in a unified model remains largely unaddressed. 
+  Second, current ABSA tasks overlook implicit opinions and sentiments. Third, 
+  most attention-based LLMs like BERT use position encoding in a linear 
+  projected manner or through split-position relations in word distance 
+  schemes, which could lead to relation biases during the training process. 
+  This paper addresses these gaps by (1) creating a new annotated dataset 
+  with five types of labels, including aspect, category, opinion, 
+  sentiment, and implicit indicator (ACOSI), (2) developing a unified 
+  model capable of extracting all five types of labels simultaneously 
+  in a generative manner, and (3) designing a new position encoding method 
+  in the attention-based model. (4) introduced a new benchmark based on 
+  Rouge scoure that incorporate with design domain knowledge inside. The 
+  numerical experiments conducted on a manually labeled dataset scraped 
+  from three major e-Commerce retail stores for apparel and footwear products 
+  demonstrate the performance, scalability, and potential of the framework 
+  developed. The article concludes with recommendations for future research 
+  on automated need finding and sentiment analysis for user-centered design."
+  quality: "(under review at Journal of Engineering Design)"
+
+- title: "Aspect Guided Abstractive Summarization for Safety Concern Information Extration"
+  authors:
+    - J. Shi
+    - Y. Han
+  abstract: "Aspect-guided summarization focuses on extracting information 
+  relevant to specific aspects from multiple documents. Unlike generic 
+  summarization and entity-related summarization, aspect-guided summarization 
+  differs in terms of granularity. In this paper, we introduce the SafetySum 
+  dataset and safety concerns-guided double encoder transformer (SDT) model, 
+  which specifically caters to aspect-guided summarization in the domain of 
+  safety engineering problems. We thoroughly analyze existing methods and 
+  demonstrate that both entity-centric summarization and controllable 
+  summarization techniques fall short of effectively addressing the requirements 
+  of aspect-guided summarization. To address this challenge, we experiment with 
+  previous approaches that can be adapted to this task and prove our SDT is 
+  state-of-the-art for this task. Our analysis underscores the difficulty of 
+  this task and highlights the need for innovative solutions."
+  quality: "(under review at Journal of Computing and Information Science in Engineering(JCISE))"
+
+- title: "Attribute-Sentiment-Guided Summarization of User Opinions from Online Reviews."
+  authors:
+    - Y. Han
+    - G. Nanda
+    - M. Moghaddam
+  abstract: "Eliciting informative user opinions from online reviews is a 
+  key success factor for innovative product design and development. 
+  The unstructured, noisy, and verbose nature of user reviews, 
+  however, often complicate large-scale need finding in a format useful 
+  for designers without losing important information. Recent advances in 
+  abstractive text summarization have created the opportunity to systematically 
+  generate opinion summaries from online reviews to inform the early stages 
+  of product design and development. However, two knowledge gaps hinder the 
+  applicability of opinion summarization methods in practice. First, there is 
+  a lack of formal mechanisms to guide the generative process with respect to
+  different categories of product attributes and user sentiments. Second, the 
+  annotated training datasets needed for supervised training of abstractive  
+  summarization models are often difficult and costly to create. This article 
+  addresses these gaps by (1) devising an efficient computational framework 
+  for abstractive opinion summarization guided by specific product attributes 
+  and sentiment polarities, and (2) automatically generating a synthetic 
+  training dataset that captures various degrees of granularity and polarity. 
+  A hierarchical multi-instance attribute-sentiment inference model is 
+  developed for assembling a high-quality synthetic dataset, which is utilized 
+  to fine-tune a pretrained language model for abstractive summary generation. 
+  Numerical experiments conducted on a large dataset scraped from three major 
+  e-Commerce retail stores for apparel and footwear products indicate the 
+  performance, feasibility, and potentials of the developed framework. Several 
+  directions are provided for future exploration in the area of automated 
+  opinion summarization for user-centered design."
+  quality: "(Published at Journal of Mechanical Design (JMD))"
+
+- title: "Eliciting Attribute-Level User Needs From Online Reviews With Deep Language Models and Information Extraction."
+  authors:
+    - Yi Han
+    - M.Moghaddam
+  abstract: "Eliciting user needs for individual components and features 
+  of a product or a service on a large scale is a key requirement for 
+  innovative design. Synthesizing data as an initial discovery phase of a 
+  design process is usually accomplished with a small number of participants, 
+  employing qualitative research methods such as observations, focus groups, 
+  and interviews. This leaves an entire swath of pertinent user behavior, 
+  preferences, and opinions not captured. Sentiment analysis is a key enabler 
+  for large-scale need finding from online user reviews generated on a regular 
+  basis. A major limitation of current sentiment analysis approaches used in 
+  design sciences, however, is the need for laborious labeling and annotation 
+  of large review datasets for training, which in turn hinders their scalability 
+  and transferability across different domains. This article proposes an 
+  efficient and scalable methodology for automated and large-scale elicitation 
+  of attribute-level user needs. The methodology builds on the state-of-the-art 
+  pretrained deep language model, BERT (Bidirectional Encoder Representations 
+  from Transformers), with new convolutional net and named entity recognition 
+  (NER) layers for extracting attribute, description, and sentiment words from 
+  online user review corpora. The machine translation algorithm BLEU (BiLingual 
+  Evaluation Understudy) is utilized to extract need expressions in the form of 
+  predefined part-of-speech combinations (e.g., adjective–noun, verb–noun). 
+  Numerical experiments are conducted on a large dataset scraped from a major 
+  e-commerce retail store for apparel and footwear to demonstrate the 
+  performance, feasibility, and potentials of the developed methodology."
+  quality: "(Published at Journal of Mechanical Design (JMD))"
+
+
+- title: "Analysis of sentiment expressions for user-centered design."
+  authors:
+    - Y. Han
+    - M. Moghaddam
+  abstract: "Devising intelligent systems capable of identifying the 
+  idiosyncratic needs of users at scale and translating them into 
+  attribute-level design feedback and recommendations is a key prerequisite 
+  for successful user-centered design processes. Recent studies show that 49% 
+  of design firms lack systems and tools for monitoring external platforms, 
+  and only 8% have adopted digital, data-driven approaches for new product 
+  development despite acknowledging them as a high priority. The 
+  state-of-the-art attribute-level sentiment analysis approaches based on 
+  deep learning have achieved promising results; however, these methods pose 
+  strict preconditions, require manually labeled data for training and 
+  pre-defined attributes by experts, and only classify sentiments intro 
+  predefined categories which have limited implications for designers. 
+  This article develops a rule-based methodology for extracting and analyzing 
+  the sentiment expressions of users on a large scale, from myriad reviews 
+  available on social media and e-commerce platforms. The methodology further 
+  advances current unsupervised attribute-level sentiment analysis approaches 
+  by enabling efficient identification and mapping of sentiment expressions of 
+  individual users onto their respective attributes. Experiments on a large 
+  dataset scraped from a major e-commerce retail store for apparel and 
+  indicate 74.3%–93.8% precision in extracting attribute-level sentiment 
+  expressions of users and demonstrate the feasibility and potentials of 
+  the developed methodology for large-scale need finding from user reviews."
+  quality: "(Published at Expert Syst. Appl.)"
+
+
+- title: "A Design Knowledge Guided Position Encoding Methodology for Implicit Need Identification From User
+Reviews"
+  authors: 
+    - Y. Han
+    - M. Moghaddam
+  Name: "IDETC-CIE 2023 International Design Engineering Technical Conferences & Computers and Information in Engineering Conference"
+  location: "Boston Park Plaza, Boston MA"
+  date: "Aug.20-23 2023"
+  quality: "(peer reviewed paper and oral presentation)"
+
+- title: "A Priori: Design Knowledge in AI"
+  authors:
+    - R. Bruggeman 
+    - E.C. Chehade
+    - Y. Han
+    - P. Ciuccarelli
+  location: "The Council of Engineering Systems Universities (CESUN) at Eighth International Engineering Systems Symposium, Charlottesville."
+  date: "Jul.5-7 2023"
+  quality: "(peer reviewed paper and oral presentation)"
+
+- title: "Extracting latent needs from online reviews through deep learning based language model"
+  authors:
+    - Y. Han
+    - R. Bruggeman
+    - J. Peper
+    - E.C. Chehade
+    - T. Marion
+    - P. Ciuccarelli
+    - M. Moghaddam
+  location: "24th International Conference on Engineering Design, Bordeaux, France"
+  date: "Jul. 24-28 2023"
+  quality: "(peer reviewed paper and oral presentation)"
+
+- title: "Aspect-Sentiment-Guided Opinion Summarization for User Need Elicitation From Online Reviews"
+  authors: 
+    - Y. Han
+    - M. Moghaddam
+  Name: "IDETC-CIE 2022 International Design Engineering Technical Conferences & Computers and Information in Engineering Conference"
+  location: "St. Louis Union Station Hotel, St. Louis, Missouri"
+  date: "Aug. 14–17, 2022"
+  quality: "(peer reviewed paper and oral presentation)"

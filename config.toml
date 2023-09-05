@@ -1,0 +1,26 @@
+baseurl = "https://yihan.github.io/"
+canonifyurls = true
+relativeURLs = true
+title = "Yi (Jade) Han"
+theme = "academimal"
+sectionPagesMenu = "main"
+defaultContentLanguage = "en"
+
+[author]
+name = "Yi Han"
+homepage = "https://yihan.github.io/"
+
+
+[params]
+shortbio = "Ph.D. Student, Industrial Engineering (expected Dec. 2023)"
+officeAddress = "177 Huntington Ave, Boston, Massachusetts, 02125, USA"
+officeMapLink = "https://www.google.com/maps/place/177+Huntington+Ave,+Boston,+MA+02115/@42.3449303,-71.0853616,17z/data=!3m1!4b1!4m6!3m5!1s0x89e37a1054078855:0x986037402dd781ff!8m2!3d42.3449303!4d-71.0827867!16s%2Fg%2F12lv76y67?entry=ttu"
+#profileurl = "https://media-exp1.licdn.com/dms/image/C4E03AQE836lixhfZCg/profile-displayphoto-shrink_800_800/0/1660597061776?e=2147483647&v=beta&t=8fQ4P7rRYLNLr-8q57_770BQlNzXrPI829Lq0uKJJ0o"
+
+[markup]
+  [markup.highlight]
+    style = "solarized-light"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+

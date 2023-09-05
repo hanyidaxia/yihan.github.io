@@ -1,0 +1,32 @@
+conference:
+- title: "A Design Knowledge Guided Position Encoding Methodology for Implicit Need Identification From User
+Reviews"
+  authors: 
+    - Y. Han
+    - M. Moghaddam
+  Name: "IDETC-CIE 2023 International Design Engineering Technical Conferences & Computers and Information in Engineering Conference"
+  location: "Boston Park Plaza, Boston MA"
+  date: "Aug.20-23 2023"
+  quality: "(peer reviewed oral presentation)"
+
+- title: "Extracting latent needs from online reviews through deep learning based language model"
+  authors:
+    - Y. Han
+    - R. Bruggeman
+    - J. Peper
+    - E.C. Chehade
+    - T. Marion
+    - P. Ciuccarelli
+    - M. Moghaddam
+  location: "24th International Conference on Engineering Design, Bordeaux, France"
+  date: "Jul. 24-28 2023"
+  quality: "(peer reviewed oral presentation)"
+
+- title: "Aspect-Sentiment-Guided Opinion Summarization for User Need Elicitation From Online Reviews"
+  authors: 
+    - Y. Han
+    - M. Moghaddam
+  Name: "IDETC-CIE 2022 International Design Engineering Technical Conferences & Computers and Information in Engineering Conference"
+  location: "St. Louis Union Station Hotel, St. Louis, Missouri"
+  date: "Aug. 14–17, 2022"
+  quality: "(peer reviewed oral presentation)"

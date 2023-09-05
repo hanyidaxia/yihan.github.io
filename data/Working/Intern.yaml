@@ -1,0 +1,45 @@
+info: Full time Intern
+companies:
+- company : Lira
+  company name: Lira Inc.
+  title: "CTO"
+  time: "Dec. 2022 - Jul. 2023"
+  duty: "
+  Lead of the technology, including: 
+  - Data Science Part-Lead the lip reading project
+    - Design several models for the lip-reading task, including Transformer-backbone-based, ResNet-backbone-based,
+  and several pure-video based.
+    - Build the model, in the latest work, and subtraction based transformer-backbone model achieved the state of the
+  art performance in the lip reading task.
+    - Lead the deployment of model transfer to app platform.
+  - Data Engineering Part-Lead the database building and data annotation
+    - Design the web for collecting lip reading dataset
+    - Build and manage the Azure storage for the collected data
+  "
+
+- company: Merck
+  company name: Merck Co.
+  title: "Data Science Intern"
+  time: "Jan. 2022 - Jul. 2022"
+  duty: "
+  - Built target liability assessment text analyzing model (includes a search engine and a text classifier) based on the
+    paper of target (compound) searching results from PubMed
+    Capabilities of the model:
+      ▪ Extracting all the sentences related to the compound and customizable disease or symptoms
+  - Built front-to-end prototype of the deep-learning based compound analyzing model (DCM) for Merck historical
+    compound pdf-format-based reports
+    Capabilities of the model:
+      ▪ Parse all the pdf and word files, extracting different sections from those files including the abstract,
+      conclusion, and result.
+  "
+
+- company: BaiRong Financial Information Service Company
+  company name: BaiRong Jinfu
+  title: "Machine Learning Intern"
+  time: "Jun. 2018 - Sep. 2018"
+  duty: "
+  - Created model for risk control through Logistic regression and Stepwise regression via R and Python; “bad
+customer” ratio decreased by 5.67%, and payment received ratio increased by 20.3%
+  - Stacked multiple XGboost into single model, compared with LightGBM; increased AUC from 0.68 to 0.76
+  "
+
