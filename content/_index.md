@@ -17,6 +17,6 @@ title = "Homepage"
 My research focuses on questions at the intersection of Aspect-based Sentiment Analysis (ABSA), Aspect guided Text summarization (AGTS), Name entity recognition and Latent needs identification. 
 It is mainly computational but in future I want to build bridges to various application domains such as hybrid human-machine interaction design system, new product development and implementing sustainable and resilient innovation strategies.</font></div>
 <br>
-<div align="justify"><font style="font-size: 15px;"> Previously, I graduated with a Master of Data Analytics Engineering with a certificate of Engineering Management from the colloege of Engineering, Northeastern University. I have also earned a Bachelor of Safety Engineering from China University of Labor Relations, BeiJing, China. I am the AI leader of <a href="https://liraglobal.com/">Lira</a>. I have worked more than 2 years in high tech industry and Engineering industry. 
+<div align="justify"><font style="font-size: 15px;"> Previously, I graduated with a Master of Data Analytics Engineering with a certificate of Engineering Management from the colloege of Engineering, Northeastern University. I have also earned a Bachelor of Safety Engineering from China. I am the AI leader of <a href="https://liraglobal.com/">Lira</a>. I have worked more than 2 years in high tech industry and Engineering industry. 
 </font></div> 
 
