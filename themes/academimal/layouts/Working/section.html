@@ -18,7 +18,28 @@
         <strong style="color:blue;">{{ .company }}</strong><br>
         <strong style="color:brown;">{{ .title }}</strong><br>
         <strong style="color:greenyellow;">{{ .time }}</strong><br>
-        {{ .duty }}<br>
+        {{ .duty1 }}<br>
+        {{ .duty2 }}<br>
+        {{ if .duty3 }}
+            {{ .duty3 }}<br>
+        {{ end }}
+        {{ if .duty4 }}
+            {{ .duty4 }}<br>
+        {{ end }}
+        {{ if .duty5 }}
+            {{ .duty5 }}<br>
+        {{ end }}
+        {{ if .duty6 }}
+            {{ .duty6 }}<br>
+        {{ end }}
+        {{ if .duty7 }}
+            {{ .duty7 }}<br>
+        {{ end }}
+        {{ if .duty8 }}
+            {{ .duty8 }}<br>
+        {{ end }}
+        
+
         <!-- Role: {{ .role }}<br> -->
         <!-- {{ if .teaching_evaluation }}
             Avg. Teaching Evaluation: {{ .teaching_evaluation}}<br>
