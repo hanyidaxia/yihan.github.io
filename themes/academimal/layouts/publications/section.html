@@ -13,6 +13,7 @@
         {{ if .authors }}
         {{ delimit ( apply .authors "replace" "." "S. Padhee" "<b><em>S. Padhee</em></b>" ) ", " }}<br>
         {{ end }}
+        {{ .Name }}<br>
         {{ .location }}<br>
         {{ .date }}<br>
     </p>
@@ -67,7 +68,7 @@
         {{ .date }}<br>
     </p>
     {{ end }}
-    {{ end }}-->
+    {{ end }} -->
 {{ end }}
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-46736129-2"></script>
