@@ -4,7 +4,7 @@ title = "Homepage"
 
 ## Hello!
 
-<div align="justify"><font style="font-size: 15px;">I'm a PhD student in Industrial Engineering at the</font>
+<div align="justify"><font style="font-size: 15px;">I am machine learning Scientist at Flagship pioneering FL100, I got my PhD at the</font>
 <b><font style="font-size: 15px;" face="Trebuchet MS" font color="#FF0000">S</font>ymbiotic
 <font style="font-size: 15px;" face="Trebuchet MS" font color="#FF0000">A</font>ugemented
 <font style="font-size: 15px;" face="Trebuchet MS" font color="#FF0000">I</font>ntelligence 
