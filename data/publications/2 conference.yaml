@@ -1,4 +1,28 @@
 conference:
+- title: "Shoes-ACOSI: A Dataset for Aspect-Based Sentiment Analysis with Implicit Opinion Extraction"
+  authors: 
+    - Joseph J Peper 
+    - Wenzhao Qiu 
+    - Ryan Bruggeman
+    - Yi Han 
+    - Estefania Ciliotta Chehade 
+    - Lu Wang
+  Name: "EMNLP 2024"
+  location: "Hyatt Regency Miami Hotel in Miami, Florida"
+  date: "November 12–16, 2024"
+  quality: "(peer reviewed paper and oral presentation)"
+
+- title: "A Priori: Design Knowledge in AI"
+  authors:
+    - R. Bruggeman 
+    - E.C. Chehade
+    - Y. Han
+    - P. Ciuccarelli
+  Name: "The 12th International Conference on Design and Semantics of Form and Movement"
+  location: "HongKong"
+  date: "Jul.5-7 2023"
+  quality: "(peer reviewed paper and oral presentation)"
+
 - title: "A Design Knowledge Guided Position Encoding Methodology for Implicit Need Identification From User
 Reviews"
   authors: 
