@@ -1,0 +1,33 @@
+info: Full time
+companies:
+- company : Flagship Pioneering FL100 lab
+  company name: FL100 lab
+  title: "Machine Learning Scientist"
+  time: "Jan. 2024 - Now"
+  duty1: "
+    -   Machine Learning part	Leading issue: Alleviating the LLM hallucination through social media validation
+  "
+  duty2: "
+    -  	Co-Built a multi-agent system (based on OpenAI) for generating CPG product, the agent system using Async, Instructor and Pydantic which capable to generate a large number any type of structured concept including text and image.
+  "
+  duty3: "
+    -   Built a Vector search solution on AWS for Amazon review database (historical product + review data till 2023), could perform free text vector search for 200-1000 products (scalable) and filtered reviews within 3s. 
+  "
+  duty4: "
+    -   Built a zero-shot free text classifier for 1700 nested product categories (4-8 layers each category), based on GPT 4o (not so proud), F1 score achieved 83%, prediction time within 1s 
+  "
+  duty5: "
+    -   Built other social media pipelines including Tiktok and Reddit (both requires data authorization), Tiktok was used for predicting social trend using video transcript and reviews, Reddit was using for painpoint generation (like Ideaape: https://ideaape.com/)
+  "
+  duty6: "
+    -   Software developing part
+  "
+  duty7: "
+    -   Majorly working on the backend, leading one workflow which is the social listening workflow and cooperating with the front end (the software is available on Shopify)
+  "
+  duty8: "
+    -   Deployed backend service through FastAPI
+  "
+  duty9: "
+    -   Database part, Managing the Amazon database, using DocumentDB
+  "
