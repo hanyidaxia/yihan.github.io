@@ -14,7 +14,9 @@ title = "Homepage"
   I ’m advised by</font> <a href="https://coe.northeastern.edu/people/moghaddam-mohsen/">Prof. Mohsen Moghaddam</a>.</div>
 <br>
 <div align="justify"><font style="font-size: 15px;">I am fascinated by how LLM oriented methodology, the specific tasks including Language modeling, sentiment analysis, text summarization and question anwsering could augement and accelerate the design concept generation in the early stage of the engineering design process. 
-I believe the next era of LLM must be agentic based systems, My current work is building the agentic system solving product design related questions.
+\\
+I believe the next era of LLM must be agentic based systems, My current work is building the agentic system solving LLM halucination realted problems.
+\\
 My research focuses on questions at the intersection of Aspect-based Sentiment Analysis (ABSA), Aspect guided Text summarization (AGTS), Name entity recognition and Latent needs identification. 
 It is mainly computational but in future I want to build bridges to various application domains such as hybrid human-machine interaction design system, new product development and implementing sustainable and resilient innovation strategies.</font></div>
 <br>
