@@ -12,7 +12,7 @@ title = "Homepage"
  <a href="https://www.sail-nu.com/">(Sail) Lab</a><font style="font-size: 15px;"> at Northeastern University.(currently <a href="https://sail.coe.gatech.edu//">(Sail) Lab at GATech</a><font style="font-size: 15px;">) at Northeastern University. 
  I design, develop and evaluate NLP models in my research to study latent needs in the early stage of Engineering Design. I am also doing CV related research for my current work, be more specific including object detection and embeedding related study.  
   I was advised by</font> <a href="https://www.isye.gatech.edu/users/mohsen-moghaddam">Prof. Mohsen Moghaddam</a>.</div>
-<br>
+
 <div align="justify"><font style="font-size: 15px;">I am fascinated by how LLM oriented methodology, the specific tasks including Language modeling, sentiment analysis, text summarization and question anwsering could augement and accelerate the design concept generation in the early stage of the engineering design process. 
 <br>
 I believe the next era of LLM must be agentic based systems, My current work is building the agentic system solving LLM halucination realted problems.
