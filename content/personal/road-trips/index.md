@@ -9,7 +9,7 @@ draft = true
 
 Take I-93 and Mass 3A southbound, and make a detour through Quincy Shore Dr to
 get a view of the Atlantic Ocean. Then, follow Mass 3A to Hingham. Once in
-Hingham, follow Gegorge Washington Blvd and Nantasket Ave all the way towards
+Hingham, follow George Washington Blvd and Nantasket Ave all the way towards
 Hull. Driving this route in the early evening is also fun. You can watch the
 Moon rising from the horizon and glowing in gold.
 

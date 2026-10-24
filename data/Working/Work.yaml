@@ -1,9 +1,16 @@
 info: Full time
 companies:
-- company : Flagship Pioneering FL100 lab
+- company : 
+  company name: Simplisafe
+  title: "Machine Learning Scientist II"
+  time: "Feb. 2025 - Now"
+  duty1: "
+    -   Machine Learning part	Leading issue: Object Detection model development full Cycle, including data collection, model training, model evaluation and deployment on edge devices.
+  "
+- company : Flagship Pioneering FL100 lab (Now Extuitive)
   company name: FL100 lab
   title: "Machine Learning Scientist"
-  time: "Jan. 2024 - Now"
+  time: "Jan. 2024 - Feb 2025"
   duty1: "
     -   Machine Learning part	Leading issue: Alleviating the LLM hallucination through social media validation
   "

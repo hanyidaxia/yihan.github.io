@@ -5,6 +5,6 @@ draft = true
 
 ## My Favorites at Flour
 
-- Blueburry crumb bar
+- Blueberry crumb bar
 - Sticky bun pudding
 - Banana bread
